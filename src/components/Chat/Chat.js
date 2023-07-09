@@ -8,7 +8,7 @@ import { ChatInput } from "../ChatInput/ChatInput";
 import { Messages } from "../Messages/Messages";
 
 
-const ENDPOINT = "https://my-chat-app34.herokuapp.com/";
+const ENDPOINT = "https://chat-server-u0gl.onrender.com/";
 //const ENDPOINT = 'localhost:8000/';
 
 const socket = io.connect(ENDPOINT);
